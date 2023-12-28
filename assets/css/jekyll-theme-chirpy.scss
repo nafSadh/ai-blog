@@ -1,0 +1,29 @@
+---
+---
+
+@import 'main';
+
+/* append your custom style below */
+
+.post-meta .preview-img, .post-meta .preview-img img {
+  border-radius: 0 !important;
+  aspect-ratio: auto;
+}
+
+.post-preview .preview-img, .post-preview .preview-img img {
+  aspect-ratio: 40/21;
+}
+
+#sidebar #avatar {
+  box-shadow: none;
+}
+
+#sidebar .site-subtitle {
+  font-style: normal !important;
+}
+
+
+%link-hover {
+  color: #07C !important;
+  border-bottom: 0px;
+}
